@@ -218,3 +218,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# data
+data/raw/
+data/processed/
+
+# models
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# outputs
+outputs/
+
+# figures
+figures/*.png
+figures/*.jpg
+
+# env
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# venv
+.venv/
+venv/
